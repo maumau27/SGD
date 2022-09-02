@@ -1,0 +1,78 @@
+/* AUX */
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid {
+    display:grid;
+    place-items: center;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+}
+
+.fixed-center{
+    top: 45%;
+    left: 45%;
+    position:fixed;
+}
+
+.toast-container {
+    z-index: 9999!important;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.bootstrap-select .dropdown-menu{
+    max-width: 100%!important;
+ }
+
+/* Grid de Curriculo */
+
+.card-disciplina {
+    color: white;
+    background-color: black;   
+    padding: 10px;  
+}
+
+.card-disciplina > a {
+    color:white;
+}
+
+.BoxNomePeriodo {
+    border-right: 1px solid black;
+}
+
+.BoxAdd {
+    border-left: 1px solid black;
+}
+
+/* add fa fa */
+
+.add {
+    font-size: 35px;
+    color:black;
+}
+
+.add:hover {
+    color:blue;
+}
+
+.remove {
+    font-size: 35px;
+    color:black;
+}
+
+.remove:hover {
+    color:red;
+}
