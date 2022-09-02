@@ -9,7 +9,6 @@ use Illuminate\Support\Facades\DB;
 
 use App\Models\Permissoes;
 
-
 /**
  * SGD - Sistema de gerencia de disciplinas
  *

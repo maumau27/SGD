@@ -40,10 +40,10 @@ return [
             'port' => 587,
             'encryption' => 'tls',
             'username' => 'dashboard',
-            'password' => 'debXGUCu',
+            'password' => '---',
             'timeout' => null,
             'auth_mode' => null,
-            //TODO - Deixa o site vulneravel. Mexer, não pode deixar assim!!!!!!!!!!!!!!!!!!
+
             'stream' => [
                 'ssl' => [
                     'allow_self_signed' => true,
